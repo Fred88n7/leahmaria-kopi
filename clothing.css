@@ -1,0 +1,107 @@
+:root {
+  --background-color: #8da2b6;
+  --text-color: black;
+  --button-color: #c89b99;
+  --line-color: #c89b99;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+@media (min-width: 600px) {
+  h1 {
+    text-align: center;
+  }
+}
+
+.section_1 ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  margin-left: 10px;
+}
+
+@media (min-width: 600px) {
+  .section_1 ul {
+    justify-content: center;
+  }
+}
+
+.afsnit_1 {
+  margin-top: 100px;
+}
+
+.afsnit_2 {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.section_2 img,
+.section_3 img,
+.section_4 img,
+.section_5 img,
+.section_6 img,
+.section_7 img,
+.section_8 img {
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .section_2 img,
+  .section_3 img,
+  .section_4 img,
+  .section_5 img,
+  .section_6 img,
+  .section_7 img,
+  .section_8 img {
+    width: 97%;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.section_2 h3,
+.section_3 h3,
+.section_4 h3,
+.section_5 h3,
+.section_6 h3,
+.section_7 h3,
+.section_8 h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.section_2 p,
+.section_3 p,
+.section_4 p,
+.section_5 p,
+.section_6 p,
+.section_7 p,
+.section_8 p {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.section_8 {
+  margin-bottom: 100px;
+}
+
+@media (min-width: 1000px) {
+  .section_2,
+  .section_2,
+  .section_3,
+  .section_4,
+  .section_5,
+  .section_6,
+  .section_7,
+  .section_8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

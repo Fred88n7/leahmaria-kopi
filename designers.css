@@ -1,0 +1,117 @@
+:root {
+  --background-color: #8da2b6;
+  --text-color: black;
+  --button-color: #c89b99;
+  --line-color: #c89b99;
+}
+
+h2 {
+  margin-left: 10px;
+}
+.section_2 h3 {
+  background-color: var(--button-color);
+  padding: 2px;
+}
+
+.section_1 ul {
+  display: flex;
+  list-style: none;
+  gap: 8.5px;
+  margin-left: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  h2 {
+    text-align: center;
+  }
+  .section_1 ul {
+    justify-content: center;
+  }
+}
+
+.section_2 {
+  margin-left: 10px;
+  margin-top: 100px;
+}
+
+.section_2 p {
+  cursor: pointer;
+}
+
+.a,
+.b,
+.c,
+.e,
+.f,
+.g,
+.h,
+.i,
+.j,
+.k,
+.l,
+.m,
+.n,
+.o,
+.p,
+.r,
+.s,
+.v,
+.y {
+  display: flex;
+  margin-bottom: 50px;
+}
+.a1,
+.b1,
+.c1,
+.f1,
+.h1,
+.l1,
+.m1,
+.s1 {
+  margin-right: 25px;
+}
+.a2,
+.m2 {
+  margin-right: 25px;
+}
+.a p,
+.b p,
+.c p,
+.e p,
+.f p,
+.g p,
+.h p,
+.i p,
+.j p,
+.k p,
+.l p,
+.m p,
+.n p,
+.o p,
+.p p,
+.r p,
+.s p,
+.v p,
+.y {
+  margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+  .section_2 {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .section_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+  }
+  .section_2 h3 {
+    margin-right: 30px;
+  }
+}
